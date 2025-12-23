@@ -1,2 +1,3 @@
-# homepage
-This repo holds the code of the ABM4ALL homepage.
+# README
+
+Homepage of ABM4ALL community.

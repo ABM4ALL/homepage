@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="ABM4ALL - A community for agent-based modeling, featuring Melodie framework and AI-powered model generation tools.">
+    <meta name="keywords" content="agent-based modeling, ABM, Melodie, Python, simulation, computational modeling">
+    <title>ABM4ALL - Agent-Based Modeling for All</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title fade-in">
+                ABM<span class="gradient-text">4</span>ALL
+            </h1>
+            <p class="hero-subtitle fade-in">
+                A Community for Agent-Based Modeling
+            </p>
+            <p class="hero-description fade-in">
+                Build sophisticated agent-based models in Python with powerful frameworks and AI-assisted tools
+            </p>
+            <div class="hero-buttons fade-in">
+                <a href="https://github.com/ABM4ALL" class="btn btn-primary" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                    Explore on GitHub
+                </a>
+                <a href="https://abm4all.github.io/Melodie/html/index.html" class="btn btn-secondary" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                    </svg>
+                    Documentation
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Core Projects -->
+    <section class="featured-projects">
+        <div class="container">
+            <h2 class="section-title reveal">Core Projects</h2>
+
+            <div class="feature-grid">
+                <!-- Melodie Card -->
+                <div class="feature-card card-melodie reveal">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5"></path>
+                                <path d="M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3>Melodie</h3>
+                            <p class="card-meta">
+                                <span class="badge">Python</span>
+                                <span class="badge">MIT License</span>
+                                <span class="stars">⭐ 46</span>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="card-description">
+                        A general framework for developing agent-based models in Python. Build complex simulations with
+                        agents, environments, grids, networks, and more.
+                    </p>
+                    <div class="card-features">
+                        <div class="feature-item">✓ Spatial modeling</div>
+                        <div class="feature-item">✓ Automatic calibration</div>
+                        <div class="feature-item">✓ Reinforcement training</div>
+                        <div class="feature-item">✓ Interactive visualization</div>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://github.com/ABM4ALL/Melodie" target="_blank" class="link-btn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                            Repository
+                        </a>
+                        <a href="https://abm4all.github.io/Melodie/html/index.html" target="_blank" class="link-btn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                            </svg>
+                            Docs
+                        </a>
+                    </div>
+                </div>
+
+                <!-- MelodieStudio Card -->
+                <div class="feature-card card-studio reveal">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3>MelodieStudio</h3>
+                            <p class="card-meta">
+                                <span class="badge">Vue.js</span>
+                                <span class="badge">MIT License</span>
+                                <span class="stars">⭐ 2</span>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="card-description">
+                        A professional front-end package for real-time visualization of ABM results. Interactive
+                        dashboard providing visual feedback for Melodie simulations.
+                    </p>
+                    <div class="card-features">
+                        <div class="feature-item">✓ Real-time visualization</div>
+                        <div class="feature-item">✓ Interactive dashboard</div>
+                        <div class="feature-item">✓ Grid & network display</div>
+                        <div class="feature-item">✓ Chart integration</div>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://github.com/ABM4ALL/MelodieStudio" target="_blank" class="link-btn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                            Repository
+                        </a>
+                        <a href="https://github.com/ABM4ALL/MelodieStudio#readme" target="_blank" class="link-btn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                            </svg>
+                            Docs
+                        </a>
+                    </div>
+                </div>
+
+                <!-- melodie_spec Card -->
+                <div class="feature-card card-spec reveal">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3>melodie_spec</h3>
+                            <p class="card-meta">
+                                <span class="badge">AI-Coding Template</span>
+                                <span class="badge">MIT License</span>
+                                <span class="stars">⭐ 4</span>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="card-description">
+                        A structural prompt kit that empowers AI agents to bootstrap Melodie agent-based models from a
+                        simple story. Transform narratives into working simulations.
+                    </p>
+                    <div class="card-features">
+                        <div class="feature-item">✓ Story-to-model workflow</div>
+                        <div class="feature-item">✓ AI agent templates</div>
+                        <div class="feature-item">✓ Structured prompts</div>
+                        <div class="feature-item">✓ Code generation</div>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://github.com/ABM4ALL/melodie_spec" target="_blank" class="link-btn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                            Repository
+                        </a>
+                        <a href="https://github.com/ABM4ALL/melodie_spec#readme" target="_blank" class="link-btn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                            </svg>
+                            Docs
+                        </a>
+                    </div>
+                </div>
+
+                <!-- tab2dict Card -->
+                <div class="feature-card card-tab2dict reveal">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                </path>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3>tab2dict</h3>
+                            <p class="card-meta">
+                                <span class="badge">Python</span>
+                                <span class="badge">MIT License</span>
+                                <span class="stars">⭐ 1</span>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="card-description">
+                        A tool that supports loading, retrieving, and collecting data in developing scientific software.
+                        Simplifies complex data management for agent-based models.
+                    </p>
+                    <div class="card-features">
+                        <div class="feature-item">✓ Tabular data loading</div>
+                        <div class="feature-item">✓ Flexible data retrieval</div>
+                        <div class="feature-item">✓ Result collection</div>
+                        <div class="feature-item">✓ Multi-format support</div>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://github.com/ABM4ALL/tab2dict" target="_blank" class="link-btn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                            Repository
+                        </a>
+                        <a href="https://github.com/ABM4ALL/tab2dict#readme" target="_blank" class="link-btn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                            </svg>
+                            Docs
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Example Collection -->
+    <section class="resources">
+        <div class="container">
+            <h2 class="section-title reveal">Example Collection</h2>
+            <p
+                style="text-align: center; color: var(--color-text-secondary); margin-bottom: var(--space-xl); font-size: 1.1rem;">
+                Learn Melodie through practical examples demonstrating key features
+            </p>
+
+            <div class="resource-grid">
+                <a href="https://github.com/ABM4ALL/Melodie/tree/master/examples/covid_contagion" target="_blank"
+                    class="resource-card reveal">
+                    <div class="resource-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M2 12h20"></path>
+                        </svg>
+                    </div>
+                    <h3>covid_contagion</h3>
+                    <p>The simplest entry point to Melodie - basic model structure</p>
+                    <span class="resource-meta">
+                        <span class="badge">Basic Structure</span>
+                    </span>
+                </a>
+
+                <a href="https://github.com/ABM4ALL/Melodie/tree/master/examples/covid_contagion_calibrator"
+                    target="_blank" class="resource-card reveal">
+                    <div class="resource-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3>covid_contagion_calibrator</h3>
+                    <p>Automatic parameter calibration to match real-world data</p>
+                    <span class="resource-meta">
+                        <span class="badge">Calibrator</span>
+                    </span>
+                </a>
+
+                <a href="https://github.com/ABM4ALL/Melodie/tree/master/examples/covid_contagion_grid" target="_blank"
+                    class="resource-card reveal">
+                    <div class="resource-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="3" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="14" width="7" height="7"></rect>
+                            <rect x="3" y="14" width="7" height="7"></rect>
+                        </svg>
+                    </div>
+                    <h3>covid_contagion_grid</h3>
+                    <p>Agent-based modeling on 2D grid environment</p>
+                    <span class="resource-meta">
+                        <span class="badge">Grid</span>
+                    </span>
+                </a>
+
+                <a href="https://github.com/ABM4ALL/Melodie/tree/master/examples/covid_contagion_grid_visual"
+                    target="_blank" class="resource-card reveal">
+                    <div class="resource-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>covid_contagion_grid_visual</h3>
+                    <p>Interactive real-time visualization of grid-based model with MelodieStudio</p>
+                    <span class="resource-meta">
+                        <span class="badge">Grid + Visualizer</span>
+                    </span>
+                </a>
+
+                <a href="https://github.com/ABM4ALL/Melodie/tree/master/examples/covid_contagion_network"
+                    target="_blank" class="resource-card reveal">
+                    <div class="resource-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="18" cy="5" r="3"></circle>
+                            <circle cx="6" cy="12" r="3"></circle>
+                            <circle cx="18" cy="19" r="3"></circle>
+                            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                        </svg>
+                    </div>
+                    <h3>covid_contagion_network</h3>
+                    <p>Model agent interactions within complex network structures</p>
+                    <span class="resource-meta">
+                        <span class="badge">Network</span>
+                    </span>
+                </a>
+
+                <a href="https://github.com/ABM4ALL/Melodie/tree/master/examples/covid_contagion_network_visual"
+                    target="_blank" class="resource-card reveal">
+                    <div class="resource-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="8" r="2"></circle>
+                            <circle cx="6" cy="16" r="2"></circle>
+                            <circle cx="18" cy="16" r="2"></circle>
+                            <path d="M12 10v2M6 14v-4h12v4"></path>
+                        </svg>
+                    </div>
+                    <h3>covid_contagion_network_visual</h3>
+                    <p>Interactive visualization of network-based agent model with MelodieStudio</p>
+                    <span class="resource-meta">
+                        <span class="badge">Network + Visualizer</span>
+                    </span>
+                </a>
+
+                <a href="https://github.com/ABM4ALL/Melodie/tree/master/examples/rock_paper_scissors_trainer"
+                    target="_blank" class="resource-card reveal">
+                    <div class="resource-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path d="M12 1v6m0 6v6m5.2-13.2l-3.5 3.5m-3.4 3.4l-3.5 3.5m0-10.4l3.5 3.5m3.4 3.4l3.5 3.5">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3>rock_paper_scissors_trainer</h3>
+                    <p>Agent learning and strategy optimization through reinforcement training</p>
+                    <span class="resource-meta">
+                        <span class="badge">Trainer</span>
+                    </span>
+                </a>
+
+                <a href="https://github.com/ABM4ALL/DatingMarket" target="_blank" class="resource-card reveal">
+                    <div class="resource-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3>DatingMarket</h3>
+                    <p>Comprehensive data-driven model with tab2dict integration</p>
+                    <span class="resource-meta">
+                        <span class="badge">Data-Driven</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content reveal">
+                <h2>Ready to Build Agent-Based Models?</h2>
+                <p>Join the ABM4ALL community and start creating sophisticated simulations today</p>
+                <div class="cta-buttons">
+                    <a href="https://github.com/ABM4ALL/Melodie" class="btn btn-primary" target="_blank">
+                        Get Started with Melodie
+                    </a>
+                    <a href="https://github.com/ABM4ALL/melodie_spec" class="btn btn-secondary" target="_blank">
+                        Try AI-Powered Modeling
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ABM4ALL</h3>
+                    <p>Building the future of agent-based modeling</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="https://github.com/ABM4ALL" target="_blank">GitHub</a></li>
+                        <li><a href="https://abm4all.github.io/Melodie/html/index.html"
+                                target="_blank">Documentation</a></li>
+                        <li><a href="https://github.com/ABM4ALL/Melodie/tree/master/examples"
+                                target="_blank">Examples</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Projects</h4>
+                    <ul>
+                        <li><a href="https://github.com/ABM4ALL/Melodie" target="_blank">Melodie</a></li>
+                        <li><a href="https://github.com/ABM4ALL/melodie_spec" target="_blank">melodie_spec</a></li>
+                        <li><a href="https://github.com/ABM4ALL/tab2dict" target="_blank">tab2dict</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="https://github.com/ABM4ALL/Melodie/issues" target="_blank">Issues</a></li>
+                        <li><a href="https://github.com/ABM4ALL/Melodie/pulls" target="_blank">Pull Requests</a></li>
+                        <li><a href="https://github.com/ABM4ALL/Melodie/discussions" target="_blank">Discussions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023-2026 ABM4ALL Community. Open source projects under MIT License.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
