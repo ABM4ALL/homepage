@@ -1,4 +1,3 @@
 # README
 
-Homepage of ABM4ALL community.
-Please access: abm4all.com
+Welcome to visit our homepage: abm4all.com
