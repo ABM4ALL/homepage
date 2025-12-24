@@ -218,6 +218,9 @@ body {
     background: var(--gradient-primary);
     color: white;
     box-shadow: var(--shadow-glow);
+    background-origin: border-box;
+    border-color: transparent;
+    /* Explicitly ensure border is transparent */
 }
 
 .btn-primary:hover {
