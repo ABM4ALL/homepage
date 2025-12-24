@@ -654,16 +654,111 @@ section {
     font-size: 0.875rem;
 }
 
-/* Reveal Animation */
-.reveal {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.6s ease;
+/* Origins Section */
+.origins {
+    background: var(--color-bg-secondary);
+    position: relative;
+    overflow: hidden;
 }
 
-.reveal.active {
-    opacity: 1;
-    transform: translateY(0);
+.origins::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at 70% 30%, rgba(99, 102, 241, 0.05) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+.origins-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: var(--space-3xl);
+    align-items: center;
+}
+
+.quote-container {
+    perspective: 1000px;
+}
+
+.quote-box {
+    background: var(--color-surface);
+    padding: var(--space-2xl);
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    position: relative;
+    box-shadow: var(--shadow-lg);
+    transition: transform var(--transition-base);
+}
+
+.quote-box:hover {
+    transform: translateY(-5px) rotateX(2deg);
+    border-color: var(--color-primary);
+}
+
+.quote-icon {
+    position: absolute;
+    top: -20px;
+    left: var(--space-xl);
+    color: var(--color-primary);
+    background: var(--color-bg-secondary);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.poetic-quote {
+    font-family: var(--font-mono);
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: var(--color-text);
+    font-style: italic;
+    margin-bottom: var(--space-md);
+    position: relative;
+    z-index: 1;
+}
+
+.quote-source {
+    display: block;
+    text-align: right;
+    color: var(--color-primary-light);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.origins-text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.origins-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+}
+
+.origins-text strong {
+    color: var(--color-primary-light);
+    font-weight: 600;
+}
+
+
+
+@media (max-width: 968px) {
+    .origins-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-2xl);
+    }
+
+    .quote-box {
+        padding: var(--space-xl);
+    }
+
+    .poetic-quote {
+        font-size: 1.1rem;
+    }
 }
 
 /* Responsive */
